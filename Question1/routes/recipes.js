@@ -1,6 +1,5 @@
-var recipes = require('../recipes.json');
-var router = require('express').Router();
-
+const recipes = require('../recipes.json');
+const router = require('express').Router();
 
 router.get('/', (req, res) => {
     const {context} = req;
