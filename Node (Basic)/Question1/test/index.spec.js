@@ -57,9 +57,9 @@ describe('express_pagination_middleware', () => {
         req.context.searchTerm.should.equal(term);
     })
 
-    it('Should respond with the correct data - 1 ', (done) => {
+    it('Should respond with the correct data - JavaScript (Intermediate) ', (done) => {
         chai.request(server)
-            .get('/recipes?q=c&page=1&limit=4')
+            .get('/recipes?q=c&page=JavaScript (Intermediate)&limit=4')
             .then(({body}) => {
                 body.page.should.equal(1);
                 body.skip.should.equal(0);

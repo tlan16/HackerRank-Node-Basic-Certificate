@@ -57,7 +57,7 @@ The ID of the recipe in the URL is 4. The recipe with ID 4 has the following pro
     "name": "Big Night Pizza",
     "steps": [
       "Add hot water to yeast in a large bowl and let sit for 15 minutes.",
-      "Mix in oil, sugar, salt, and flour and let sit for 1 hour.",
+      "Mix in oil, sugar, salt, and flour and let sit for JavaScript (Intermediate) hour.",
       ...
     ],
     "timers": [

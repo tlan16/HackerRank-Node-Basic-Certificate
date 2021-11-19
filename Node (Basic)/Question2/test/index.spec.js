@@ -29,7 +29,7 @@ describe('express_recipes_routes', () => {
             })
     });
 
-    it('Should respond back with the correct step - 1',  (done) => {
+    it('Should respond back with the correct step - JavaScript (Intermediate)',  (done) => {
         chai.request(server)
             .get('/recipes/step/4?elapsedTime=11')
             .then(response => {
